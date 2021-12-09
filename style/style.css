@@ -1,0 +1,122 @@
+@font-face{
+    font-family: "dyno";
+    src: url("../style/police/dyno.ttf");
+
+}
+
+@font-face{
+    font-family: "ciclefina";
+    src: url("../style/police/ciclefina.ttf");
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: ciclefina;
+    background-color: #505050;
+    color: white
+}
+p,figcaption,.liste{
+    color: white;
+    overflow: auto;
+}
+#accueil{
+    font-family: dyno;
+    color: white;
+    background-color: #b94503;
+    margin: 10px;
+    height: 60px;
+    opacity: 1;
+}
+
+.video{
+    display: float;
+    margin-left: 35%;
+
+}
+#projets{
+    font-family: dyno;
+
+}
+
+.paragraphe{
+    position: relative;
+    text-overflow: auto;
+    text-align: justify;
+    width: 60%;
+    height: 200px;
+
+}
+.navigation{
+
+    display: inline;
+    list-style: none;
+    padding: 2%;
+}
+header{
+    border: #f7af3e 2px solid;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.center{
+
+    text-align: center;
+}
+.bordures{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    border: 2px #f7af3e solid;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    margin-bottom: 20px;
+
+
+}
+
+.ss_bordures ul{
+    background-color: #b94503;
+    margin: 2%;
+    width: 29%;
+    padding: auto;
+    border: 2px #f7af3e solid;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+
+}
+
+a{
+    color:white;
+
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+footer{
+    margin-left:auto;
+    margin-right: auto;
+    /*background-image: url("../images/fontainebleau.jpg"); */
+    background-color:#b94503;
+    text-align: center;
+    color: white;
+
+
+}
+/*h1 em = tous les em dans les h1
+h1+em = 1er em apres le h1
+span dans un <p>
+<div> pas dans <p>
+* : toutes les balises
+.nom pour les class (pas de limites)
+#id pour les id (1 seul id)
+ les deux pour des balises sinon utiliser div ou span
+
+ a[attribut] toutes les balises a avec attribut attribut ou a[attribut="valeur"]
+*/
